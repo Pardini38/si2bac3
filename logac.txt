@@ -1,0 +1,35 @@
+2020-10-10T00:51:08.328136+00:00 app[api]: Initial release by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T00:51:08.328136+00:00 app[api]: Release v1 created by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T00:51:08.471751+00:00 app[api]: Release v2 created by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T00:51:08.471751+00:00 app[api]: Enable Logplex by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T00:51:58.000000+00:00 app[api]: Build started by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T00:52:23.005771+00:00 app[api]: Deploy bea4435c by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T00:52:23.005771+00:00 app[api]: Release v3 created by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T00:52:23.022659+00:00 app[api]: Scaled to web@1:Free by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T00:52:26.873071+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-10T00:52:29.107877+00:00 app[web.1]: python: can't open file 'primos.py': [Errno 2] No such file or directory
+2020-10-10T00:52:29.151318+00:00 heroku[web.1]: Process exited with status 2
+2020-10-10T00:52:29.190493+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-10T00:52:29.192495+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-10T00:52:31.000000+00:00 app[api]: Build succeeded
+2020-10-10T00:52:32.566613+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-10T00:52:34.745609+00:00 app[web.1]: python: can't open file 'primos.py': [Errno 2] No such file or directory
+2020-10-10T00:52:34.795800+00:00 heroku[web.1]: Process exited with status 2
+2020-10-10T00:52:34.833986+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-10T00:54:32.298490+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=si2bac3pardini.herokuapp.com request_id=d3ce8273-81e8-43fc-bfac-d6ed738fe375 fwd="201.26.214.228" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-10T00:54:32.761920+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=si2bac3pardini.herokuapp.com request_id=df763cfc-5b3e-4901-9bab-86eebcbb6308 fwd="201.26.214.228" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-10T01:03:24.000000+00:00 app[api]: Build started by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T01:03:48.911473+00:00 app[api]: Release v4 created by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T01:03:48.911473+00:00 app[api]: Deploy 618c389e by user guilherme.pardini@aluno.faculdadeimpacta.com.br
+2020-10-10T01:03:49.099561+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-10T01:03:52.981278+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-10T01:03:56.539276+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+2020-10-10T01:03:56.539303+00:00 app[web.1]: * Environment: production
+2020-10-10T01:03:56.539361+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-10T01:03:56.539431+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-10T01:03:56.539487+00:00 app[web.1]: * Debug mode: off
+2020-10-10T01:03:56.574488+00:00 app[web.1]: * Running on http://0.0.0.0:37242/ (Press CTRL+C to quit)
+2020-10-10T01:03:57.000000+00:00 app[api]: Build succeeded
+2020-10-10T01:03:57.151412+00:00 heroku[web.1]: State changed from starting to up
+2020-10-10T01:04:13.429574+00:00 app[web.1]: 10.45.5.181 - - [10/Oct/2020 01:04:13] "GET / HTTP/1.1" 200 -
+2020-10-10T01:04:13.432378+00:00 heroku[router]: at=info method=GET path="/" host=si2bac3pardini.herokuapp.com request_id=7b8a5fb2-6788-4d70-b7dd-d4e8d4af5a28 fwd="201.26.214.228" dyno=web.1 connect=2ms service=14ms status=200 bytes=666 protocol=https
